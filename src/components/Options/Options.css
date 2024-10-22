@@ -1,0 +1,18 @@
+.options-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.options-brn {
+    border: 1px solid #585858;
+    padding: 8px;
+    background-color: rgb(226, 215, 215);
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.options-brn:hover {
+    background-color: rgb(120, 118, 118);
+}
